@@ -9,5 +9,4 @@ func main() {
 	session := prisma_session.Session{ApiUrl: params.ApiUrl}
 	session.CreateSession()
 	session.GetAuditEvents()
-
 }
